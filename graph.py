@@ -3,7 +3,7 @@ import numpy as np
 
 g= 9.81
 
-def graphPlotter(apt1StartTime, apt2StartTime, apt1FinalTime, apt2FinalTime, apt1VerticalVelocity, apt2VerticalVelocity):
+def graph_plotter(apt1StartTime, apt2StartTime, apt1FinalTime, apt2FinalTime, apt1VerticalVelocity, apt2VerticalVelocity):
 
     t1 = np.linspace(apt1StartTime, apt1FinalTime, 1000)
     t2 = np.linspace(apt2StartTime, apt2FinalTime, 1000)
@@ -21,3 +21,4 @@ def graphPlotter(apt1StartTime, apt2StartTime, apt1FinalTime, apt2FinalTime, apt
     plt.legend()
     # plt.savefig('AptPlot.png', dpi=600)
     plt.show()
+
