@@ -1,6 +1,6 @@
 import math
 
-def quadraticFormula(a, b, c):
+def quadratic_solver(a, b, c):
     
     # Returns real roots
     if (b**2 -(4 * a * c)) >= 0:
@@ -17,4 +17,5 @@ def quadraticFormula(a, b, c):
         x2 = (-b - (math.sqrt(-(b**2 -(4 * a * c)))) * 1j)/ (2 * a)
         
         return [x1, x2]
+
     
