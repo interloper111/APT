@@ -1,6 +1,6 @@
 import math
 from aptClass import Apt
-from graph import graphPlotter
+from graph import graph_plotter
  
 # y = 0 is defined at the ground.
 # All APTs (alien pop-up toy) start from a 1.2m high bench.
@@ -11,4 +11,5 @@ apt1 = Apt(math.sqrt(10.791))
 apt2 = Apt(0)
 apt2.findPerfectStartTime(apt1.finalTime)
 
-graphPlotter(apt1.startTime, apt2.startTime, apt1.finalTime, apt2.finalTime, apt1.velocity, apt2.velocity)
+
+graph_plotter(apt1.startTime, apt2.startTime, apt1.finalTime, apt2.finalTime, apt1.velocity, apt2.velocity)
