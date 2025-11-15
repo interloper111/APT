@@ -1,6 +1,6 @@
 import math
 
-def quadratic_solver(a, b, c):
+def quadratic_solve(a, b, c):
     
     # Returns real roots
     if (b**2 -(4 * a * c)) >= 0:
@@ -19,3 +19,4 @@ def quadratic_solver(a, b, c):
         return [x1, x2]
 
     
+
