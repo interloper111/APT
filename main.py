@@ -1,5 +1,5 @@
 import math
-from aptClass import Apt
+from apt_class import Apt
 from graph import graph_plotter
  
 # y = 0 is defined at the ground.
@@ -9,7 +9,8 @@ from graph import graph_plotter
     
 apt1 = Apt(math.sqrt(10.791))
 apt2 = Apt(0)
-apt2.findPerfectStartTime(apt1.finalTime)
+apt2.find_perfect_start_time(apt1.final_time)
 
 
-graph_plotter(apt1.startTime, apt2.startTime, apt1.finalTime, apt2.finalTime, apt1.velocity, apt2.velocity)
+graph_plotter(apt1.start_time, apt2.start_time, apt1.final_time, apt2.final_time, apt1.velocity, apt2.velocity)
+
